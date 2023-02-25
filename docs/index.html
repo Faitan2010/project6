@@ -4,14 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+
     <link rel="stylesheet" href="./css/style.min.css">
+
+
     <title>doc</title>
+
+    <script src="./files/gsap/gsap.min.js" defer></script>
+    <script src="./files/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="./files/gsap/ScrollSmoother.min.js" defer></script>
+    <script src="./js/app.min.js" defer></script>
+
 </head>
-<body>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <script>new WOW().init();</script>
-    <script src="./js/app.min.js"></script>
+    
+<body class="bg-header-bg bg-50px font-Raleway-VariableFont text-white overflow-x-hidden">
+    <div class="wrapper">
+        <div class="content">
+            <header class="h-[100vh] relative hero-section">
+                <img src="./img/hero.png" alt="#" class="w-[calc(var(--index)*36);] absolute left-[37vw] top-[8vh] will-change-transform" data-speed=".6">
+                <!-- data-lag="" -->
+                <div class="py-0 px-[7vw] absolute w-min bottom-[25vh] will-change-transform" data-speed=".75">
+                    <h1 class="text-[calc(var(--index)*8);] leading-[.9] font-Outfit-VariableFont">
+                        creative 
+                        scroll
+                    </h1>
+                </div>
+            </header>
+            <main class="py-[calc(var(--index)*8);]">
+                <section class="flex px-[7vw] text-white">
+                    <div class="left-blocks flex-1 flex items-center flex-col gap-y-[calc(var(--index)*10)] mt-[calc(var(--index)*18.5)] will-change-transform" data-speed=".9">
+                        <img src="./img/work/1.jpg" alt="#" class="max-w-1vp rounded-lg left-item">
+                        <img src="./img/work/2.jpg" alt="#" class="max-w-1vp rounded-lg left-item">
+                        <div class="max-w-1vp relative left-item">
+                            <h2 class="font-Outfit-VariableFont text-[2rem] leading-[1.2] mb-[1.5rem] ">
+                                Creative floating scroll with amazing parallax effect
+                            </h2>
+                            <p class="text-grey">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor amount scrolling.
+                            </p>
+                        </div>
+                        <img src="./img/work/6.jpg" alt="#" class="max-w-1vp rounded-lg left-item">
+                    </div>
+                    <div class="right-blocks flex-1 flex items-center flex-col gap-y-[calc(var(--index)*10)] mt-[calc(var(--index)*10)] will-change-transform" data-speed="1.1">
+                        <div class="max-w-1vp relative right-item">
+                            <h2 class="font-Outfit-VariableFont text-[2rem] leading-[1.2] mb-[1.5rem]">
+                                Creative floating scroll with amazing parallax effect
+                            </h2>
+                            <p class="text-grey">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor amount scrolling.
+                            </p>
+                        </div>
+                        <img src="./img/work/3.jpg" alt="#" class="max-w-1vp rounded-lg right-item">
+                        <img src="./img/work/4.jpg" alt="#" class="max-w-1vp rounded-lg right-item">
+                        <img src="./img/work/5.jpg" alt="#" class="max-w-1vp rounded-lg right-item">
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
 </body>
 </html>
