@@ -3,3 +3,8 @@
 @tailwind utilities;
 
 @import "fonts";
+
+
+:root {
+    --index: calc(1vw + 1vh)
+}
