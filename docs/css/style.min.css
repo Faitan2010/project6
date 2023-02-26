@@ -563,7 +563,7 @@ video {
   border-width: 1px;
 }
 .no-webp .bg-header-bg {
-  background-image: url('/img/bg.jpg'); }
+  background-image: url('./img/bg.jpg'); }
 .bg-50px {
   background-size: 50px;
 }
@@ -672,4 +672,4 @@ video {
     font-size: calc(var(--index) * 8);;
   }
 }
-.webp .bg-header-bg { background-image: url(/img/bg.webp); }
+.webp .bg-header-bg { background-image: url(./img/bg.webp); }
