@@ -1,3 +1,12 @@
+import * as flsFunctions from "./modules//functions.js"
+
+flsFunctions.isWebp();
+
+
+
+
+
+
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
 if (ScrollTrigger.isTouch !== 1) {
