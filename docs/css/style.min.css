@@ -522,6 +522,9 @@ video {
 .h-\[50vh\] {
   height: 50vh;
 }
+.h-full {
+  height: 100%;
+}
 .w-\[calc\(var\(--index\)\*25\)\;\] {
   width: calc(var(--index) * 25);;
 }
