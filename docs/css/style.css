@@ -556,6 +556,9 @@ video {
 .gap-y-10 {
   row-gap: 2.5rem;
 }
+.overflow-hidden {
+  overflow: hidden;
+}
 .overflow-x-hidden {
   overflow-x: hidden;
 }
