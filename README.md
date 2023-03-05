@@ -18,7 +18,7 @@ The main feature of the project is a creative beautiful scrolling animation (GSA
 ✔️ **Verified by the W3C validator**
 
 ![](./pr6/pages-6.jpg)
-![](./pr6/mod-gp.jpg)
+![](./pr6/mob-2-pages-imp.jpg)
 
 ✔️ **Styled by Tailwind+SCSS**
 
